@@ -73,8 +73,3 @@ query = "SELECT * FROM users WHERE username = '" + user_input + "'"
 # Insecure use of shell commands (command injection)
 user_input = input("Enter a command: ")
 os.system(user_input)
-
-# Insecure use of subprocess with shell=True
-command = input("Enter a command: ")
-import subprocess
-subprocess.call(command, shell=True)
