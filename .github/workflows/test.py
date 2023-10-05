@@ -69,7 +69,3 @@ message = template.substitute(name=name)
 # Insecure use of raw SQL queries (SQL injection)
 user_input = input("Enter a username: ")
 query = "SELECT * FROM users WHERE username = '" + user_input + "'"
-
-# Insecure use of shell commands (command injection)
-user_input = input("Enter a command: ")
-os.system(user_input)
