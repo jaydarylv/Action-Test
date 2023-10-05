@@ -10,5 +10,5 @@ def greet(name):
 result = add_numbers(3, 4)
 print(result)
 
-message = greet("Alice")
+message = greet("Jay")
 print(message)
